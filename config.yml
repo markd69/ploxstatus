@@ -7,9 +7,10 @@ params:
   alwaysKeepBrandColor: true
   brand: '#158f8a'
   categories:
-    - closed: true
+    - closed: false
       description: 'Our websites, including homepage and multicraft.'
       name: Website
+  customTabs: []
   dateFormat: 'January 2, 2006 at 3:04 PM'
   description: >-
     We continuously monitor the status of our services and if there are any
