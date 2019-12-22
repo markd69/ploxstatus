@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: PloxHost Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -90,7 +90,7 @@ defaultContentLanguage: en
 # localhost should automatically work.
 #
 # Example: https://status.example.com/
-baseURL: https://cstate.mnts.lt
+baseURL: https://status.plox.host
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -202,7 +202,7 @@ params:
   #
   # Recommended: png, bmp, jpg, or gif
   # for best browser support!
-  logo: /logo.png
+  logo: https://plox.host/assets/img/plox-logo-long.png
 
   # This is the description that is shown
   # on the footer and meta tags.
@@ -248,7 +248,7 @@ params:
   # disrupted: "#cc4400"
   # down: "#e60000"
   # notice: "#24478f"
-  brand: "#0a0c0f"
+  brand: "#158f8a"
   ok: "#008000"
   disrupted: "#cc4400"
   down: "#e60000"
