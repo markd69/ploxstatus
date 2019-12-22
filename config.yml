@@ -6,7 +6,10 @@ baseURL: 'https://status.plox.host'
 params:
   alwaysKeepBrandColor: true
   brand: '#158f8a'
-  categories: []
+  categories:
+    - closed: true
+      description: 'Our websites, including homepage and multicraft.'
+      name: Website
   dateFormat: 'January 2, 2006 at 3:04 PM'
   description: >-
     We continuously monitor the status of our services and if there are any
@@ -21,7 +24,10 @@ params:
   notice: '#24478f'
   ok: '#008000'
   shortDateFormat: '15:04 — Jan 2'
-  systems: []
+  systems:
+    - category: Website
+      description: 'https://plox.host'
+      name: Main Website
   useLargeHeaderDesign: true
   useLogo: true
 theme: cstate
