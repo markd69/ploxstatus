@@ -6,12 +6,7 @@ baseURL: 'https://status.plox.host'
 params:
   alwaysKeepBrandColor: true
   brand: '#158f8a'
-  categories:
-    - closed: true
-      description: The main servers are located here.
-      name: North Coast
-    - name: East Coast
-    - name: Uncategorized
+  categories: []
   dateFormat: 'January 2, 2006 at 3:04 PM'
   description: >-
     We continuously monitor the status of our services and if there are any
@@ -26,19 +21,7 @@ params:
   notice: '#24478f'
   ok: '#008000'
   shortDateFormat: '15:04 — Jan 2'
-  systems:
-    - category: North Coast
-      name: Gateway
-    - category: East Coast
-      name: Backup Gateway
-    - category: Uncategorized
-      description: The guts of the application.
-      name: API
-    - category: Uncategorized
-      description: >-
-        This is the service responsible for serving images, audio, and video. It
-        is reliant on our CDN.
-      name: Media Proxy
+  systems: []
   useLargeHeaderDesign: true
   useLogo: true
 theme: cstate
